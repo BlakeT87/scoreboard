@@ -1,5 +1,7 @@
 # scoreboard
 
+Live Version - https://tiny-kringle-a6e513.netlify.app/
+
 This is a challenge from the Scrimba front end developer course. The challenge is to create a working basketball scoreboard.
 
 Required Elements:

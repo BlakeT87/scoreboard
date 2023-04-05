@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*border: 1px dotted blue;*/
+}
+
+@font-face {
+    font-family: digital-clock;
+    src: url(fonts/DIGITALDREAMFAT.ttf);
+}
+
+
+#scoreboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background: url(images/basketball.jpg);
+    background-size: cover;
+}
+
+#score-container{
+    display: flex;
+    flex-direction: row;
+}
+.scoresection{
+    margin: 10vw;
+    padding: 0px 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.title{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    width: 80px;
+    border: 2px solid black;
+}
+
+.score-el{
+    font-family: digital-clock;
+    text-align: center;
+    color: orange;
+    text-shadow:0px 0px 2px white;
+    background-color: black;
+    padding: 10px;
+    margin: 20px 0px;
+    width: 100px; 
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 3px 8px;
+    margin: 0px 3px;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    font-weight: bolder;
+    border-color: white;
+}
+
+#new-game{
+    width: 200px;
+    font-size: 20px;
+}
